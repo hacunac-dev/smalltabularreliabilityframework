@@ -5,13 +5,13 @@ type: software
 version: 1.0.0
 date-released: 2026-08-19
 authors:
+  - family-names: "Acuña-Cid"
+    given-names: "Héctor Alejandro"
+    orcid: "https://orcid.org/0000-0002-8477-0963"
   - family-names: "Galicia-Rodríguez"
     given-names: "Ana Gabriela"
   - family-names: "Acuña-Ruiz"
     given-names: "Anayancin"
-  - family-names: "Acuña-Cid"
-    given-names: "Héctor Alejandro"
-    orcid: "https://orcid.org/0000-0002-8477-0963"
   - family-names: "Herrera-Medrano"
     given-names: "Ana María"
   - family-names: "Hernández-Ríos"
