@@ -22,6 +22,8 @@ Pareto dominance is used to identify non dominated models. Convergence and the n
 
 `framework_simulation.ipynb` contains the simulation workflow, summary analyses, figure generation, and the comparison between AUC only selection and the multiobjective reliability profile.
 
+`real_case_analysis.ipynb` contains the computational workflow used for the methodological real case study. The participant level dataset is not included in the public repository.
+
 `results_simulation_complete_v3.csv` contains the final simulation results used in the manuscript.
 
 `requirements.txt` lists the Python dependencies.
