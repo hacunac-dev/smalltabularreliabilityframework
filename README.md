@@ -47,3 +47,7 @@ Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+## Licencia
+
+La licencia del software se incorporará antes de publicar la primera versión archivada del repositorio.
