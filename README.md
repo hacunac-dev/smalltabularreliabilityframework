@@ -104,4 +104,6 @@ This project is distributed under the MIT License. See the `LICENSE` file for de
 
 Citation information is provided in the `CITATION.cff` file.
 
-A permanent DOI will be added after the repository release is archived in Zenodo.
+The archived version of this repository is available in Zenodo:
+
+**DOI: 10.5281/zenodo.22018948**
