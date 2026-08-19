@@ -28,12 +28,14 @@ Pareto dominance is used to identify non dominated models. Convergence and the n
 
 `CITATION.cff` provides citation metadata for this repository.
 
+`LICENSE` contains the MIT License for the software.
+
 ## Simulation design
 
 The simulation combines:
 
-1. Sample sizes: 30, 50, 75, 100, 150
-2. Predictors: 5, 10, 15
+1. Sample sizes: 30, 50, 75, 100, and 150
+2. Predictors: 5, 10, and 15
 3. Expected outcome prevalence: 0.20 and 0.50
 4. Predictor correlation: 0 and 0.5
 5. Independent datasets per scenario: 50
@@ -48,6 +50,56 @@ Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-## Licencia
 
-La licencia del software se incorporará antes de publicar la primera versión archivada del repositorio.
+Open the notebook:
+
+```text
+framework_simulation.ipynb
+```
+
+By default, the notebook uses:
+
+```text
+results_simulation_complete_v3.csv
+```
+
+to reproduce the analyses and results reported in the manuscript without rerunning the complete simulation.
+
+To regenerate the complete simulation, change:
+
+```python
+RUN_FULL_SIMULATION = False
+```
+
+to:
+
+```python
+RUN_FULL_SIMULATION = True
+```
+
+The complete simulation may require considerable computation time.
+
+## Real case study data
+
+The participant level dataset used in the methodological case study is not included in this public repository because it contains information collected from human participants.
+
+The computational code and simulation results that can be shared publicly are provided in this repository.
+
+## Authors
+
+Héctor Alejandro Acuña Cid  
+Ana Gabriela Galicia Rodríguez  
+Anayancin Acuña Ruiz  
+Ana María Herrera Medrano  
+Julia Elena Hernández Ríos  
+Gael Nájera De Lira
+
+## License
+
+This project is distributed under the MIT License. See the `LICENSE` file for details.
+
+## Citation
+
+Citation information is provided in the `CITATION.cff` file.
+
+A permanent DOI will be added after the repository release is archived in Zenodo.
