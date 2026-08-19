@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or simulation material, please cite the associated repository and manuscript."
+title: "Small Tabular Reliability Framework"
+type: software
+version: 1.0.0
+date-released: 2026-08-19
+authors:
+  - family-names: "Galicia-Rodríguez"
+    given-names: "Ana Gabriela"
+  - family-names: "Acuña-Ruiz"
+    given-names: "Anayancin"
+  - family-names: "Acuña-Cid"
+    given-names: "Héctor Alejandro"
+    orcid: "https://orcid.org/0000-0002-8477-0963"
+  - family-names: "Herrera-Medrano"
+    given-names: "Ana María"
+  - family-names: "Hernández-Ríos"
+    given-names: "Julia Elena"
+  - family-names: "Nájera-De Lira"
+    given-names: "Gael"
+repository-code: "https://github.com/hacunac-dev/smalltabularreliabilityframework"
